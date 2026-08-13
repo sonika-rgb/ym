@@ -3,8 +3,8 @@ import { motion } from "motion/react";
 import { Play, ExternalLink } from "lucide-react";
 import { Reveal } from "./Reveal";
 
-const TRAILER_URL = "https://youtu.be/fFL2mStp0p0?si=PveqIMx2BPQ7BvdP";
-const EMBED_URL = "https://www.youtube-nocookie.com/embed/fFL2mStp0p0?autoplay=1&rel=0";
+const TRAILER_URL = "https://www.youtube.com/watch?v=qzwvncmhcY4";
+const EMBED_URL = "https://www.youtube-nocookie.com/embed/qzwvncmhcY4?autoplay=1&rel=0";
 
 export function Trailer() {
   const [isPlaying, setIsPlaying] = useState(false);
