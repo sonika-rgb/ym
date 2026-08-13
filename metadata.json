@@ -1,0 +1,6 @@
+{
+  "name": "Red Flags - Fansite",
+  "description": "A fan-made microsite for the upcoming BL series: two red flags, one fake relationship.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
