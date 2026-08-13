@@ -27,7 +27,7 @@ export const CHARACTERS: [Character, Character] = [
     name: "Dean",
     actor: "William Jakrapatr Kaewpanpong",
     archetype: "The playboy",
-    image: "/assets/images/actors/dean.jpg",
+    image: "/assets/images/actors/dean.png",
     personality:
       "Charming, restless, impossible to pin down. He collects attention the way other people collect playlists and treats commitment like a typo he keeps meaning to delete.",
     redFlags: [
@@ -47,7 +47,7 @@ export const CHARACTERS: [Character, Character] = [
     name: "Moth",
     actor: "Est Supha Sangaworawong",
     archetype: "The reserved one",
-    image: "/assets/images/actors/moth.jpg",
+    image: "/assets/images/actors/moth.png",
     personality:
       "Controlled, quiet, allergic to noise. He guards his space like a secret, doesn't commit to anyone, and has a finger hovering over the block button.",
     redFlags: [
@@ -87,7 +87,7 @@ export const ACTORS: Actor[] = [
     id: "actor-one",
     name: "William Jakrapatr Kaewpanpong",
     playing: "Dean",
-    image: "/assets/images/actors/dean.jpg",
+    image: "/assets/images/actors/dean.png",
     intro:
       "William Jakrapatr Kaewpanpong is a Thai-American singer, actor, guitarist, pianist — and the main powerhouse vocalist of LYKN under GMMTV. Most people first noticed him in ThamePo: Heart That Skips a Beat, where he completely blew up with his emotional acting, insane live vocals, and effortless chemistry with Est Supha Sangaworawong.",
     socials: [
@@ -99,7 +99,7 @@ export const ACTORS: Actor[] = [
     id: "actor-two",
     name: "Est Supha Sangaworawong",
     playing: "Moth",
-    image: "/assets/images/actors/moth.jpg",
+    image: "/assets/images/actors/moth.png",
     intro:
       "Est Supha Sangaworawong is a Thai actor and former national swimmer who went from breaking records in the pool to breaking hearts on-screen. Born in Bangkok in 2001, he's signed under GMMTV and is best known for playing Po in ThamePo: Heart That Skips a Beat and Tew in High School Frenemy.",
     socials: [
@@ -119,87 +119,87 @@ export type Shot = {
 /** Uploaded BTS photos. Swap `src` values to change the gallery. */
 export const GALLERY: Shot[] = [
   {
-    src: "/assets/images/bts/bts-shot-4.png",
+    src: "/assets/images/bts/bts1.png",
     caption: "Peace sign on location — William & Est between takes.",
     category: "off set",
   },
   {
-    src: "/assets/images/bts/bts-image-3.png",
+    src: "/assets/images/bts/bts2.png",
     caption: "Hallway break — William in leather jacket, Est in white knit.",
     category: "together",
   },
   {
-    src: "/assets/images/bts/bts-shot-2.png",
+    src: "/assets/images/bts/bts3.png",
     caption: "The bar counter scene — holding hands before rolling.",
     category: "on set",
   },
   {
-    src: "/assets/images/bts/bts-image.png",
+    src: "/assets/images/bts/bts4.png",
     caption: "Celebratory flowers after wrapping a long shoot.",
     category: "together",
   },
   {
-    src: "/assets/images/bts/bts-shot-6.png",
+    src: "/assets/images/bts/bts17.png",
     caption: "Full cast squad hanging out by the doorway.",
     category: "off set",
   },
   {
-    src: "/assets/images/bts/bts-image-2.png",
+    src: "/assets/images/bts/bts5.png",
     caption: "Kitchen scene rehearsal — cat apron & back hug.",
     category: "on set",
   },
   {
-    src: "/assets/images/bts/bts-shot-9.png",
+    src: "/assets/images/bts/bts6.png",
     caption: "Intimate sofa scene under warm ambient lighting.",
     category: "on set",
   },
   {
-    src: "/assets/images/bts/bts-image-4.png",
+    src: "/assets/images/bts/bts7.png",
     caption: "Quiet embrace between takes in the green room.",
     category: "together",
   },
   {
-    src: "/assets/images/bts/bts-shot-7.png",
+    src: "/assets/images/bts/bts8.png",
     caption: "Playful selfie — William peace sign over a sleeping Est.",
     category: "off set",
   },
   {
-    src: "/assets/images/bts/bts-shot-1.png",
+    src: "/assets/images/bts/bts9.png",
     caption: "Late-night script review on the couch.",
     category: "together",
   },
   {
-    src: "/assets/images/bts/bts-image-5.png",
+    src: "/assets/images/bts/bts10.png",
     caption: "Cinematic side-lighting test before Episode 3.",
     category: "on set",
   },
   {
-    src: "/assets/images/bts/bts-shot-3.png",
+    src: "/assets/images/bts/bts11.png",
     caption: "Leaning on each other after wrap.",
     category: "off set",
   },
   {
-    src: "/assets/images/bts/bts-shot-5.png",
+    src: "/assets/images/bts/bts12.png",
     caption: "Casual moments on set between scenes.",
     category: "off set",
   },
   {
-    src: "/assets/images/bts/bts-image-6.png",
+    src: "/assets/images/bts/bts13.png",
     caption: "Soft lighting test for intimate character moments.",
     category: "on set",
   },
   {
-    src: "/assets/images/bts/bts-shot-8.png",
+    src: "/assets/images/bts/bts14.png",
     caption: "Rehearsing posture and eye contact.",
     category: "on set",
   },
   {
-    src: "/assets/images/bts/bts-shot-10.png",
+    src: "/assets/images/bts/bts15.png",
     caption: "Behind the monitor checking playback.",
     category: "together",
   },
   {
-    src: "/assets/images/bts/bts-image-7.png",
+    src: "/assets/images/bts/bts16.png",
     caption: "The whole crew together after wrapping the location shot.",
     category: "off set",
   },
