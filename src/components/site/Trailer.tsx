@@ -26,7 +26,7 @@ export function Trailer() {
       </Reveal>
 
       <Reveal variant="zoom-in" delay={0.2} className="mt-12 md:mt-16">
-        <div className="relative mx-auto aspect-video w-full max-w-4xl overflow-hidden rounded-xl border border-white/10 bg-black/60 shadow-[var(--glow-soft)] group">
+        <div className="relative mx-auto aspect-video min-h-[270px] sm:min-h-0 w-full max-w-4xl overflow-hidden rounded-xl border border-white/10 bg-black/60 shadow-[var(--glow-soft)] group">
           {isPlaying ? (
             <iframe
               src={EMBED_URL}
@@ -52,39 +52,39 @@ export function Trailer() {
               <div className="absolute inset-0 bg-black/30 backdrop-blur-[2px]" />
 
               {/* Play button overlay */}
-              <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center">
+              <div className="absolute inset-0 flex flex-col items-center justify-center p-4 sm:p-6 text-center">
                 <motion.button
                   type="button"
                   whileHover={{ scale: 1.08 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => setIsPlaying(true)}
                   aria-label="Play Pilot Trailer"
-                  className="group/btn relative flex size-20 items-center justify-center rounded-full border border-crimson/50 bg-crimson/80 text-ivory shadow-[0_0_30px_rgba(200,30,50,0.5)] transition-colors hover:bg-crimson hover:border-crimson"
+                  className="group/btn relative flex size-14 sm:size-20 items-center justify-center rounded-full border border-crimson/50 bg-crimson/80 text-ivory shadow-[0_0_30px_rgba(200,30,50,0.5)] transition-colors hover:bg-crimson hover:border-crimson"
                 >
-                  <Play className="ml-1 size-8 fill-ivory text-ivory" />
+                  <Play className="ml-0.5 sm:ml-1 size-6 sm:size-8 fill-ivory text-ivory" />
                   <span className="absolute -inset-2 rounded-full border border-crimson/30 animate-ping opacity-30 pointer-events-none" />
                 </motion.button>
 
-                <p className="mt-6 font-serif text-xl font-medium tracking-wide text-ivory">
+                <p className="mt-3 sm:mt-6 font-serif text-base sm:text-xl font-medium tracking-wide text-ivory">
                   GREATEST MANIA — Official Pilot Trailer
                 </p>
-                <div className="mt-4 flex flex-wrap items-center justify-center gap-4">
+                <div className="mt-3 sm:mt-4 flex flex-wrap items-center justify-center gap-2 sm:gap-4">
                   <button
                     type="button"
                     onClick={() => setIsPlaying(true)}
-                    className="inline-flex items-center gap-2 rounded-full bg-crimson px-5 py-2 text-xs tracking-[0.2em] font-medium text-ivory uppercase shadow-md transition-all hover:bg-crimson/80"
+                    className="inline-flex items-center gap-1.5 sm:gap-2 rounded-full bg-crimson px-3.5 py-1.5 sm:px-5 sm:py-2 text-[0.68rem] sm:text-xs tracking-[0.15em] sm:tracking-[0.2em] font-medium text-ivory uppercase shadow-md transition-all hover:bg-crimson/80"
                   >
-                    <Play className="size-3.5 fill-current" />
+                    <Play className="size-3 sm:size-3.5 fill-current" />
                     Watch Inline
                   </button>
                   <a
                     href={TRAILER_URL}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/5 px-5 py-2 text-xs tracking-[0.2em] font-medium text-ivory uppercase backdrop-blur-md transition-all hover:bg-white/10 hover:border-white/40"
+                    className="inline-flex items-center gap-1.5 sm:gap-2 rounded-full border border-white/20 bg-white/5 px-3.5 py-1.5 sm:px-5 sm:py-2 text-[0.68rem] sm:text-xs tracking-[0.15em] sm:tracking-[0.2em] font-medium text-ivory uppercase backdrop-blur-md transition-all hover:bg-white/10 hover:border-white/40"
                   >
                     Watch on YouTube
-                    <ExternalLink className="size-3.5" />
+                    <ExternalLink className="size-3 sm:size-3.5" />
                   </a>
                 </div>
               </div>
