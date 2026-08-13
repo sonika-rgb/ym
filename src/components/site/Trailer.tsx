@@ -30,7 +30,7 @@ export function Trailer() {
           {isPlaying ? (
             <iframe
               src={EMBED_URL}
-              title="GREATEST MANIA - Official Pilot Trailer"
+              title="GREATEST MANIA - Official Trailer"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
               className="size-full border-0"
@@ -40,7 +40,7 @@ export function Trailer() {
               {/* Thumbnail backdrop with dark gradient overlay */}
               <img
                 src="https://img.youtube.com/vi/fFL2mStp0p0/maxresdefault.jpg"
-                alt="GREATEST MANIA Pilot Trailer Thumbnail"
+                alt="Official Trailer Thumbnail"
                 referrerPolicy="no-referrer"
                 className="size-full object-cover transition-transform duration-700 group-hover:scale-105"
                 onError={(e) => {
