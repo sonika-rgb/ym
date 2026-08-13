@@ -14,14 +14,14 @@ export function Trailer() {
       <Reveal variant="blur-up" className="text-center">
         <div className="inline-flex items-center gap-2 rounded-full border border-crimson/40 bg-crimson/10 px-3.5 py-1 text-[0.65rem] tracking-[0.25em] font-medium text-crimson uppercase">
           <span className="size-1.5 animate-pulse rounded-full bg-crimson" />
-          Official Teaser
+          Official Trailer
         </div>
         <p className="eyebrow mt-4">First Look</p>
         <h2 className="mt-4 font-serif text-4xl text-ivory sm:text-5xl md:text-6xl">
-          Pilot Trailer
+          Official Trailer
         </h2>
         <p className="mx-auto mt-4 max-w-lg font-serif text-base text-muted-foreground italic sm:text-lg">
-          Watch the official pilot trailer for GREATEST MANIA.
+          Watch the official trailer for GREATEST MANIA.
         </p>
       </Reveal>
 
@@ -66,7 +66,7 @@ export function Trailer() {
                 </motion.button>
 
                 <p className="mt-3 sm:mt-6 font-serif text-base sm:text-xl font-medium tracking-wide text-ivory">
-                  GREATEST MANIA — Official Pilot Trailer
+                  GREATEST MANIA — Official Trailer
                 </p>
                 <div className="mt-3 sm:mt-4 flex flex-wrap items-center justify-center gap-2 sm:gap-4">
                   <button
