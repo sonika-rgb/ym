@@ -58,7 +58,7 @@ export function Trailer() {
                   whileHover={{ scale: 1.08 }}
                   whileTap={{ scale: 0.95 }}
                   onClick={() => setIsPlaying(true)}
-                  aria-label="Play Pilot Trailer"
+                  aria-label="Official Trailer"
                   className="group/btn relative flex size-14 sm:size-20 items-center justify-center rounded-full border border-crimson/50 bg-crimson/80 text-ivory shadow-[0_0_30px_rgba(200,30,50,0.5)] transition-colors hover:bg-crimson hover:border-crimson"
                 >
                   <Play className="ml-0.5 sm:ml-1 size-6 sm:size-8 fill-ivory text-ivory" />
